@@ -1,7 +1,8 @@
 # HabitFlow — Production-Grade Habit Tracking Platform
 
 **Author:** Venkatesh (Software Engineer)  
-**System Class:** Distributed Behavioral Habit Engine
+**System Class:** Distributed Behavioral Habit Engine  
+**Live Demo:** [https://habitflow-lovat.vercel.app/](https://habitflow-lovat.vercel.app/)
 
 ---
 
