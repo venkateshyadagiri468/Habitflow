@@ -9,7 +9,7 @@
     "install-all": "npm run install:server && npm run install:client",
     "server": "cd server && npm run dev",
     "client": "cd client && npm run dev",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm install --legacy-peer-deps && npm run build && cd .. && rm -rf dist && cp -R client/dist dist",
     "dev": "npx concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {},
