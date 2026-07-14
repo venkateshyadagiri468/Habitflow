@@ -86,9 +86,9 @@ Instead of importing a heavy charting library, we write coordinate offsets direc
 
 We map weekly completion percentages ($0\% - 100\%$) into an SVG viewbox of $500 \times 160$ pixels:
 
-$$x = \text{padding} + \left( \frac{i \times (\text{width} - 2 \times \text{padding})}{\text{total\_intervals}} \right)$$
+$$x = \text{padding} + \left( \frac{i \times (\text{width} - 2 \times \text{padding})}{\text{totalIntervals}} \right)$$
 
-$$y = \text{height} - \text{padding} - \left( \frac{\text{completion\_rate}}{100} \times (\text{height} - 2 \times \text{padding}) \right)$$
+$$y = \text{height} - \text{padding} - \left( \frac{\text{completionRate}}{100} \times (\text{height} - 2 \times \text{padding}) \right)$$
 
 This is rendered using a single `<path>` element for the line, and an closed `<path>` filled with a `linearGradient` to create a smooth, modern area chart.
 
